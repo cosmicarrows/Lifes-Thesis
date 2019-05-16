@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262029CDDB30C4E056B82808 /* Pods_LifesThesis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8E8B6ED06DFB106B83233B /* Pods_LifesThesis.framework */; };
+		E918296A220FA9FA005C647E /* AddThoughtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9182969220FA9FA005C647E /* AddThoughtVC.swift */; };
+		E918296C220FD0F6005C647E /* Thought.swift in Sources */ = {isa = PBXBuildFile; fileRef = E918296B220FD0F6005C647E /* Thought.swift */; };
+		E918296E220FDE25005C647E /* ThoughtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E918296D220FDE25005C647E /* ThoughtCell.swift */; };
+		E91829702211C498005C647E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E918296F2211C498005C647E /* LoginVC.swift */; };
+		E91829722211CB75005C647E /* CreateUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91829712211CB75005C647E /* CreateUserVC.swift */; };
+		E918297422126B05005C647E /* CommentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E918297322126B05005C647E /* CommentsVC.swift */; };
+		E9182976221273BD005C647E /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9182975221273BD005C647E /* CommentCell.swift */; };
+		E91829782212941F005C647E /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91829772212941F005C647E /* Comment.swift */; };
+		E918297A221377F9005C647E /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9182979221377F9005C647E /* KeyboardBoundView.swift */; };
 		E9446E5C220D6CDC00F9531A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9446E5B220D6CDC00F9531A /* AppDelegate.swift */; };
-		E9446E5E220D6CDC00F9531A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9446E5D220D6CDC00F9531A /* ViewController.swift */; };
+		E9446E5E220D6CDC00F9531A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9446E5D220D6CDC00F9531A /* MainVC.swift */; };
 		E9446E61220D6CDC00F9531A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9446E5F220D6CDC00F9531A /* Main.storyboard */; };
 		E9446E63220D6CDF00F9531A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9446E62220D6CDF00F9531A /* Assets.xcassets */; };
 		E9446E66220D6CDF00F9531A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9446E64220D6CDF00F9531A /* LaunchScreen.storyboard */; };
+		E9446E6E220D6E3900F9531A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9446E6D220D6E3900F9531A /* GoogleService-Info.plist */; };
+		E9446EA8220FA6B700F9531A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9446EA7220FA6B700F9531A /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		462FE082B9087B68D9059256 /* Pods-LifesThesis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifesThesis.release.xcconfig"; path = "Pods/Target Support Files/Pods-LifesThesis/Pods-LifesThesis.release.xcconfig"; sourceTree = "<group>"; };
+		5B8E8B6ED06DFB106B83233B /* Pods_LifesThesis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifesThesis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		857AEA2FBBAF32D505A29153 /* Pods-LifesThesis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifesThesis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LifesThesis/Pods-LifesThesis.debug.xcconfig"; sourceTree = "<group>"; };
+		E9182969220FA9FA005C647E /* AddThoughtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddThoughtVC.swift; sourceTree = "<group>"; };
+		E918296B220FD0F6005C647E /* Thought.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thought.swift; sourceTree = "<group>"; };
+		E918296D220FDE25005C647E /* ThoughtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtCell.swift; sourceTree = "<group>"; };
+		E918296F2211C498005C647E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E91829712211CB75005C647E /* CreateUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserVC.swift; sourceTree = "<group>"; };
+		E918297322126B05005C647E /* CommentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsVC.swift; sourceTree = "<group>"; };
+		E9182975221273BD005C647E /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		E91829772212941F005C647E /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		E9182979221377F9005C647E /* KeyboardBoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
 		E9446E58220D6CDC00F9531A /* LifesThesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifesThesis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9446E5B220D6CDC00F9531A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9446E5D220D6CDC00F9531A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9446E5D220D6CDC00F9531A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		E9446E60220D6CDC00F9531A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9446E62220D6CDF00F9531A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9446E65220D6CDF00F9531A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9446E67220D6CDF00F9531A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9446E6D220D6E3900F9531A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E9446EA7220FA6B700F9531A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262029CDDB30C4E056B82808 /* Pods_LifesThesis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A6433AF7E38641D0115844A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				857AEA2FBBAF32D505A29153 /* Pods-LifesThesis.debug.xcconfig */,
+				462FE082B9087B68D9059256 /* Pods-LifesThesis.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E9446E4F220D6CDC00F9531A = {
 			isa = PBXGroup;
 			children = (
 				E9446E5A220D6CDC00F9531A /* LifesThesis */,
 				E9446E59220D6CDC00F9531A /* Products */,
+				8A6433AF7E38641D0115844A /* Pods */,
+				F075AD31E8BC27CB52F043F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,65 @@
 		E9446E5A220D6CDC00F9531A /* LifesThesis */ = {
 			isa = PBXGroup;
 			children = (
+				E9446EA6220FA6AC00F9531A /* Utilities */,
+				E9446EA3220F97B000F9531A /* Model */,
+				E9446EA2220F97AB00F9531A /* View */,
+				E9446EA1220F97A300F9531A /* Controller */,
 				E9446E5B220D6CDC00F9531A /* AppDelegate.swift */,
-				E9446E5D220D6CDC00F9531A /* ViewController.swift */,
 				E9446E5F220D6CDC00F9531A /* Main.storyboard */,
 				E9446E62220D6CDF00F9531A /* Assets.xcassets */,
 				E9446E64220D6CDF00F9531A /* LaunchScreen.storyboard */,
+				E9446E6D220D6E3900F9531A /* GoogleService-Info.plist */,
 				E9446E67220D6CDF00F9531A /* Info.plist */,
 			);
 			path = LifesThesis;
+			sourceTree = "<group>";
+		};
+		E9446EA1220F97A300F9531A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E918296F2211C498005C647E /* LoginVC.swift */,
+				E9446E5D220D6CDC00F9531A /* MainVC.swift */,
+				E9182969220FA9FA005C647E /* AddThoughtVC.swift */,
+				E91829712211CB75005C647E /* CreateUserVC.swift */,
+				E918297322126B05005C647E /* CommentsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9446EA2220F97AB00F9531A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E918296D220FDE25005C647E /* ThoughtCell.swift */,
+				E9182975221273BD005C647E /* CommentCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9446EA3220F97B000F9531A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E918296B220FD0F6005C647E /* Thought.swift */,
+				E91829772212941F005C647E /* Comment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9446EA6220FA6AC00F9531A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E9446EA7220FA6B700F9531A /* Constants.swift */,
+				E9182979221377F9005C647E /* KeyboardBoundView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F075AD31E8BC27CB52F043F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B8E8B6ED06DFB106B83233B /* Pods_LifesThesis.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9446E6A220D6CDF00F9531A /* Build configuration list for PBXNativeTarget "LifesThesis" */;
 			buildPhases = (
+				B5607B67D2B2F955DA67DB35 /* [CP] Check Pods Manifest.lock */,
 				E9446E54220D6CDC00F9531A /* Sources */,
 				E9446E55220D6CDC00F9531A /* Frameworks */,
 				E9446E56220D6CDC00F9531A /* Resources */,
+				37F8C7E27FD5A287D087A970 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9446E66220D6CDF00F9531A /* LaunchScreen.storyboard in Resources */,
+				E9446E6E220D6E3900F9531A /* GoogleService-Info.plist in Resources */,
 				E9446E63220D6CDF00F9531A /* Assets.xcassets in Resources */,
 				E9446E61220D6CDC00F9531A /* Main.storyboard in Resources */,
 			);
@@ -130,13 +222,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37F8C7E27FD5A287D087A970 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LifesThesis/Pods-LifesThesis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifesThesis/Pods-LifesThesis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5607B67D2B2F955DA67DB35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifesThesis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E9446E54220D6CDC00F9531A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9446E5E220D6CDC00F9531A /* ViewController.swift in Sources */,
+				E9446E5E220D6CDC00F9531A /* MainVC.swift in Sources */,
+				E91829722211CB75005C647E /* CreateUserVC.swift in Sources */,
+				E918297A221377F9005C647E /* KeyboardBoundView.swift in Sources */,
+				E918296C220FD0F6005C647E /* Thought.swift in Sources */,
+				E91829702211C498005C647E /* LoginVC.swift in Sources */,
 				E9446E5C220D6CDC00F9531A /* AppDelegate.swift in Sources */,
+				E9182976221273BD005C647E /* CommentCell.swift in Sources */,
+				E918296E220FDE25005C647E /* ThoughtCell.swift in Sources */,
+				E918296A220FA9FA005C647E /* AddThoughtVC.swift in Sources */,
+				E9446EA8220FA6B700F9531A /* Constants.swift in Sources */,
+				E91829782212941F005C647E /* Comment.swift in Sources */,
+				E918297422126B05005C647E /* CommentsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +449,7 @@
 		};
 		E9446E6B220D6CDF00F9531A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 857AEA2FBBAF32D505A29153 /* Pods-LifesThesis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,12 +462,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cosmicarrows.LifesThesis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E9446E6C220D6CDF00F9531A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 462FE082B9087B68D9059256 /* Pods-LifesThesis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +481,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cosmicarrows.LifesThesis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

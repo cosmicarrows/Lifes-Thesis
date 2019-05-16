@@ -1,0 +1,6 @@
+framework module Pods_LifesThesis {
+  umbrella header "Pods-LifesThesis-umbrella.h"
+
+  export *
+  module * { export * }
+}
